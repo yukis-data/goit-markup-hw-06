@@ -276,6 +276,10 @@ nav {
   width: 528px;
   height: 581px;
   background-color: var(--modal-background-color);
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 
 .modal-close {
@@ -296,6 +300,42 @@ nav {
 .close-svg {
   width: 11px;
   height: 11px;
+}
+
+/*section form*/
+.form-signup {
+  width: 528px;
+  height: 581px;
+  padding: 40px 40px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  width: 100%;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-item {
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.form-field input {
+  margin: 0;
+  padding: 11px 12px;
+  border: none;
+}
+
+.icon-form {
+  margin-left: 12px
+  margin-right: auto;;
 }
 
 /*section feature*/
