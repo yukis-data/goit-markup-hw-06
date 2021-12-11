@@ -65,26 +65,36 @@
           </button>
 
           <form name="form-signup" class="form-signup">
-            <h2>Оставьте свои данные, мы вам перезвоним</h2>
+            <b>Оставьте свои данные, мы вам перезвоним</b>
             
             <div class="form-field">
-              <label for="name">Имя</label>
+              <label for="nick-name">Имя</label>
                 <div class="form-item">
+                  <input type="text" name="name" id="nick-name" class="form-input">
                   <svg class="icon-form" width="18" height="18">
                     <use href="./img/icons/icons.svg#icon-person"></use>
                   </svg>
-                  <input type="text" name="name" id="name">
                 </div>
             </div>  
 
             <div class="form-field">
               <label for="tel">Телефон</label>
-              <input type="tel" name="tel" id="tel">
+              <div class="form-item">
+                <input type="tel" name="tel" id="tel" class="form-input">
+                <svg class="icon-form" width="18" height="18">
+                  <use href="./img/icons/icons.svg#icon-phone"></use>
+                </svg>
+              </div>
             </div>  
 
             <div class="form-field">
               <label for="email">Почта</label>
-              <input type="email" name="email" id="email">
+              <div class="form-item">
+                <input type="email" name="email" id="email" class="form-input">
+                <svg class="icon-form" width="18" height="18">
+                  <use href="./img/icons/icons.svg#icon-email"></use>
+                </svg>
+              </div>
             </div>
 
             <div class="form-field">

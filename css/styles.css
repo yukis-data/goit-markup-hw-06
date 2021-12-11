@@ -320,22 +320,52 @@ nav {
   margin-bottom: 10px;
 }
 
+.form-field label {
+  margin-bottom: 4px;
+}
+
 .form-item {
+  position: relative;
   width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
 }
 
-.form-field input {
-  margin: 0;
-  padding: 11px 12px;
+.form-item:hover,
+.form-item:focus-within {
+  border-color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+/* .form-item:hover,
+.form-item:focus {
+  border-color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.form-item:hover ~ svg {
+  fill: var(--accent-color);
+} */
+
+/* 
+.form-item:hover ~ .form-input:not(:placeholder-shown),
+.form-item:focus ~ .form-input:not(:placeholder-shown) {
+  border-color: var(--accent-color);
+  fill: var(--accent-color);
+} */
+
+.form-input {
+  width: 100%;
+  padding-left: 42px;
+  padding: 11px 12px 11px 42px;
   border: none;
 }
 
 .icon-form {
-  margin-left: 12px
-  margin-right: auto;;
+  position: absolute;
+  top: 12px;
+  left: 11px;
 }
 
 /*section feature*/
