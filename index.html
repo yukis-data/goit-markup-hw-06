@@ -65,7 +65,7 @@
           </button>
 
           <form name="form-signup" class="form-signup">
-            <b>Оставьте свои данные, мы вам перезвоним</b>
+            <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
             
             <div class="form-field">
               <label for="nick-name">Имя</label>
@@ -99,14 +99,18 @@
 
             <div class="form-field">
               <label for="comment">Комментарий</label>
-              <textarea name="comment" id="comments" id="comment" placeholder="Введите текст"></textarea>
+              <textarea name="comment" id="comments" id="comment" class="comment-text" placeholder="Введите текст"></textarea>
             </div>
 
             <div class="form-policy">
-              <input type="checkbox" name="" id="policy">
+              <!--<input type="checkbox" name="" id="policy">
               <label for="policy">Соглашаюсь с рассылкой и принимаю 
                 <a href="">Условия договора</a>
-              </label>
+              </label>-->
+              <svg width="16" height="15">
+                <use href="./img/icons/icons.svg#icon-check"></use>
+              </svg>
+              <p>Соглашаюсь с рассылкой и принимаю Условия договора</p>
             </div>
 
             <button type="submit">Отправить</button>
