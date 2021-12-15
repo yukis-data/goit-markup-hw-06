@@ -69,7 +69,7 @@
             
             <div class="form-group">
               <div class="form-field">
-                <label for="nick-name">Имя</label>
+                <label for="nick-name"  class="form-name">Имя</label>
                 <div class="form-item">
                   <input type="text" name="name" id="nick-name" class="form-input">
                   <svg class="icon-form" width="18" height="18">
@@ -79,7 +79,7 @@
               </div>
               
               <div class="form-field">
-                <label for="tel">Телефон</label>
+                <label for="tel"  class="form-name">Телефон</label>
                 <div class="form-item">
                   <input type="tel" name="tel" id="tel" class="form-input">
                   <svg class="icon-form" width="18" height="18">
@@ -89,7 +89,7 @@
               </div>
               
               <div class="form-field">
-                <label for="email">Почта</label>
+                <label for="email" class="form-name">Почта</label>
                 <div class="form-item">
                   <input type="email" name="email" id="email" class="form-input">
                   <svg class="icon-form" width="18" height="18">
@@ -99,7 +99,7 @@
               </div>
               
               <div class="form-field">
-                <label for="comment">Комментарий</label>
+                <label for="comment"  class="form-name">Комментарий</label>
                 <textarea name="comment" id="comments" id="comment" class="comment-text" placeholder="Введите текст"></textarea>
               </div>
             </div>
@@ -110,10 +110,6 @@
                 <span class="checkbox-icon"></span>
                 Соглашаюсь с рассылкой и принимаю <span class="text-bit"> Условия договора</span>
               </label>
-              <!--<svg class="policy-check" width="16" height="15">
-                <use href="./img/icons/icons.svg#icon-check"></use>
-              </svg>
-              <p class="policy-text">Соглашаюсь с рассылкой и принимаю Условия договора</p>-->
             </div>
 
             <button type="submit" class="form-button">Отправить</button>
@@ -451,6 +447,15 @@
       </div>
       </div>
 
+      <div class="footer-label">
+        <label class="label-text">
+          Подпишитесь на рассылку
+          <input type="email" name="email" placeholder="E-mail">
+        </label>
+        <button class="footer-button">Подписаться
+          <span class="button-icon"></span>
+        </button>
+      </div>
 
     </footer>
 
