@@ -357,6 +357,11 @@ nav {
 .form-item:focus-within {
   border-color: var(--accent-color);
   fill: var(--accent-color);
+  /* outline: none; */
+}
+.form-input:hover,
+.form-input:focus-within {
+  outline: none;
 }
 
 .form-name {
@@ -429,11 +434,15 @@ nav {
 
 input:checked + .checkbox-icon {
   background-color: var(--accent-color);
-  background-image: url(../img/icons/icon-check.svg);
+  /* background-image: url(../img/icons/icon-check.svg); */
   border-color: var(--accent-color);
-  background-origin: border-box;
+  /* background-origin: border-box; */
+  border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* background-image 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  fill: var(--accent-text-color);
+  object-fit: cover;
 }
 
 .text-bit {
@@ -444,11 +453,11 @@ input:checked + .checkbox-icon {
 
 .checkbox-icon {
   margin-right: 7px;
-  width: 16px;
-  height: 15px;
 
-  border: 2px solid var(--logo-text);
+  border: 1px solid var(--logo-text);
   border-radius: 2px;
+  fill: var(--accent-text-color);
+  object-fit: cover;
 }
 
 .form-button {
