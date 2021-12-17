@@ -357,7 +357,7 @@ nav {
 .form-item:focus-within {
   border-color: var(--accent-color);
   fill: var(--accent-color);
-  /* outline: none; */
+  outline: none;
 }
 .form-input:hover,
 .form-input:focus-within {
